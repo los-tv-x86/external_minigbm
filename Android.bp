@@ -182,6 +182,7 @@ cc_library {
             ],
         },
     },
+    min_sdk_version: "apex_inherit",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -209,6 +210,7 @@ rust_bindgen {
     host_supported: true,
     vendor_available: true,
     product_available: true,
+    min_sdk_version: "34",
     apex_available: [
         "//apex_available:anyapex",
         "//apex_available:platform",
